@@ -9,7 +9,9 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "preview": "vite preview --host 0.0.0.0",
-    "test:browser": "node tests/browser.mjs"
+    "test:browser": "node tests/browser.mjs",
+    "test:updates:browser": "node tests/updates-browser.mjs",
+    "test:i18n:browser": "node tests/i18n-browser.mjs"
   },
   "dependencies": {
     "phaser": "^3.90.0"
